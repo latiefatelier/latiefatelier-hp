@@ -43,3 +43,37 @@ function initHairstyleFilter() {
 }
 
 initHairstyleFilter();
+
+function initHeroVideo() {
+  const heroVideo = document.querySelector(".hero-video-media");
+
+  if (!(heroVideo instanceof HTMLVideoElement)) {
+    return;
+  }
+
+  heroVideo.muted = true;
+  heroVideo.defaultMuted = true;
+  heroVideo.loop = true;
+  heroVideo.autoplay = true;
+  heroVideo.playsInline = true;
+
+  const playVideo = () => {
+    const playPromise = heroVideo.play();
+
+    if (playPromise) {
+      playPromise.catch(() => {
+        document.addEventListener("touchstart", playVideo, { once: true });
+      });
+    }
+  };
+
+  heroVideo.addEventListener("ended", () => {
+    heroVideo.currentTime = 0;
+    playVideo();
+  });
+
+  heroVideo.addEventListener("canplay", playVideo, { once: true });
+  playVideo();
+}
+
+initHeroVideo();

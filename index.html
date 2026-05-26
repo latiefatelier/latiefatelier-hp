@@ -9,13 +9,14 @@
   <meta property="og:title" content="Latief Atelier | 東大阪の髪質改善・縮毛矯正ヘアアトリエ">
   <meta property="og:description" content="相談できる、髪質改善と縮毛矯正の大人向けATELIER。">
   <meta property="og:type" content="website">
+  <link rel="preload" href="assets/images/hero-video-poster.jpg" as="image">
   <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <a class="site-logo" href="index.html" aria-label="Latief Atelier トップページへ">
-        <img src="assets/images/ロゴアイコン.png" alt="" width="40" height="40">
+        <img src="assets/images/logo-icon.png" alt="" width="40" height="40">
         <span>Latief Atelier</span>
       </a>
       <button class="nav-toggle" type="button" aria-controls="global-nav" aria-expanded="false">
@@ -35,19 +36,24 @@
 
   <main>
     <section class="hero hero-video">
-      <video class="hero-video-media" autoplay muted loop playsinline preload="metadata" poster="assets/images/店の画像横.png" aria-label="Latief Atelierのイメージ動画">
-        <source src="assets/videos/美容動画トップ (1).mp4" type="video/mp4">
+      <video class="hero-video-media" autoplay muted loop playsinline webkit-playsinline preload="auto" poster="assets/images/hero-video-poster.jpg" aria-label="Latief Atelierのイメージ動画">
+        <source src="assets/videos/hero-video.mp4" type="video/mp4">
       </video>
       <div class="hero-shade" aria-hidden="true"></div>
       <div class="container hero-content">
         <p class="eyebrow">Hair quality atelier</p>
-        <h1>髪を、静かに整える。</h1>
-        <p>髪質相談ができる、大人のための髪質改善と縮毛矯正。</p>
+        <h1>髪を、<br>静かに整える。</h1>
+        <p>髪質相談ができる、大人のための<br class="mobile-only">髪質改善と縮毛矯正。</p>
         <div class="hero-actions">
           <a class="button" href="#reservation">髪の相談・ご予約はこちら</a>
           <a class="button button-secondary hero-line" href="https://lin.ee/6GPeVmwn" target="_blank" rel="noopener noreferrer">LINEで相談する</a>
         </div>
       </div>
+    </section>
+
+    <section class="mobile-reserve-bar" aria-label="スマホ用予約導線">
+      <a href="#reservation">予約フォーム</a>
+      <a href="https://lin.ee/6GPeVmwn" target="_blank" rel="noopener noreferrer">LINE相談</a>
     </section>
 
     <section class="section section-intro">
@@ -57,7 +63,7 @@
           <h2>相談できる、髪質改善と縮毛矯正の大人向けATELIER。</h2>
         </div>
         <div class="lead-block">
-          <p>Latief Atelierは、Latief店舗内の別ブランドとして、髪質改善・縮毛矯正・カラーを中心に、髪の状態や履歴を丁寧に確認しながら施術を設計する完全予約制のヘアアトリエです。</p>
+          <p>Latief Atelierは、髪質改善・縮毛矯正・カラーを中心に、髪の状態や履歴を丁寧に確認しながら施術を設計する完全予約制のヘアアトリエです。</p>
           <p>髪だけを切り離して考えるのではなく、生活や日常と髪はつながっているものとして向き合います。</p>
           <a class="text-link" href="concept.html">コンセプトを読む</a>
         </div>
@@ -66,8 +72,8 @@
 
     <section class="section section-soft">
       <div class="container atelier-grid">
-        <div class="image-frame">
-          <img src="assets/images/店の画像横.png" alt="Latief Atelierの外観">
+        <div class="image-frame image-frame-shop">
+          <img src="assets/images/shop-front.jpg" alt="Latief Atelierの店舗正面" loading="lazy" decoding="async">
         </div>
         <div>
           <p class="eyebrow">Shop</p>
@@ -118,28 +124,28 @@
           <a class="text-link" href="hairstyle.html">カタログを見る</a>
         </div>
         <div class="style-preview">
-          <img src="assets/images/ヘアカタログ３つ.png" alt="Short、Medium、Longのヘアスタイルカタログ">
+          <img src="assets/images/hair-catalog.png" alt="Short、Medium、Longのヘアスタイルカタログ" loading="lazy" decoding="async">
         </div>
       </div>
     </section>
 
     <section id="reservation" class="section section-accent">
       <div class="container reservation-layout">
-        <div>
+        <div class="reservation-copy">
           <p class="eyebrow">Reservation</p>
           <h2>ご予約・髪の相談</h2>
           <p>ご予約はすぐ確定ではなく、ご希望日時を伺った上で調整します。髪質改善と縮毛矯正、どちらが合うのか迷っている方も、まずはLINEでお気軽にご相談ください。</p>
-          <div class="hero-actions">
+          <div class="reservation-actions">
             <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSenfjEN9BArRA2PpPxyo5vL9c3WmB7zXqXQNt8PEVHBXvngTw/viewform?usp=header" target="_blank" rel="noopener noreferrer">予約フォームを開く</a>
             <a class="button button-secondary" href="https://lin.ee/6GPeVmwn" target="_blank" rel="noopener noreferrer">LINEで相談する</a>
           </div>
         </div>
         <div class="form-shell">
           <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSenfjEN9BArRA2PpPxyo5vL9c3WmB7zXqXQNt8PEVHBXvngTw/viewform?usp=header"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSenfjEN9BArRA2PpPxyo5vL9c3WmB7zXqXQNt8PEVHBXvngTw/viewform?embedded=true"
             title="予約フォーム"
             width="100%"
-            height="720"
+            height="780"
             frameborder="0"
             marginheight="0"
             marginwidth="0">
