@@ -1,39 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://latiefatelier.com/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/04-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/01-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/02-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/05-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/06-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/07-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/08-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/09-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/shop-front.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://latiefatelier.com/concept.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/shop-front.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://latiefatelier.com/staff.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://latiefatelier.com/pricing.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://latiefatelier.com/hairstyle.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/01-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/02-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/03-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/04-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/05-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/06-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/07-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/08-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/09-960.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://latiefatelier.com/blog.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://latiefatelier.com/aging-hair.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/01-960.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://latiefatelier.com/assets/images/cases/02-960.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://latiefatelier.com/hair-treatment.html</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://latiefatelier.com/bleached-hair.html</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://latiefatelier.com/privacy.html</loc>
+    <lastmod>2026-11-16</lastmod>
   </url>
 </urlset>

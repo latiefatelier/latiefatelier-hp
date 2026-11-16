@@ -1,0 +1,137 @@
+[
+  {
+    "number": "01",
+    "source": "01_before_IMG_0266.jpeg",
+    "source_sha256": "9fd3237c56740ca302f00bd2d2ab5711b34f66b1f3b9644d7eb1afa08624d839",
+    "crop": [
+      0,
+      0,
+      1152,
+      1536
+    ],
+    "kind": "real_original_derived",
+    "operations": "EXIF orientation; pixel crop for 09; resize; WebP encoding",
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "number": "02",
+    "source": "02_after_IMG_0267.jpeg",
+    "source_sha256": "fe851cb8e4f14bf04f19c6144e1e235a0dcc1c3b5a3df1ffeb52de83393c3191",
+    "crop": [
+      0,
+      0,
+      1152,
+      1536
+    ],
+    "kind": "real_original_derived",
+    "operations": "EXIF orientation; pixel crop for 09; resize; WebP encoding",
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "number": "03",
+    "source": "03_after_IMG_0265.jpeg",
+    "source_sha256": "e79a1b7a201126b8c68e829a43dcdb74c7232bc432b6e3196197175a5a6895ee",
+    "crop": [
+      0,
+      0,
+      1152,
+      1536
+    ],
+    "kind": "real_original_derived",
+    "operations": "EXIF orientation; pixel crop for 09; resize; WebP encoding",
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "number": "04",
+    "source": "04_after_IMG_0264.jpeg",
+    "source_sha256": "4cc06de82b8c0281c1be3f724827900e62b39944549f5b4c9ecd2ecab0163113",
+    "crop": [
+      0,
+      0,
+      1152,
+      1536
+    ],
+    "kind": "real_original_derived",
+    "operations": "EXIF orientation; pixel crop for 09; resize; WebP encoding",
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "number": "05",
+    "source": "05_before_IMG_0271.jpeg",
+    "source_sha256": "87b35fa68e771d739993b7f77b60fce71a8303d7cbe52af5f322fe8afac4f4fb",
+    "crop": [
+      0,
+      0,
+      1152,
+      1536
+    ],
+    "kind": "real_original_derived",
+    "operations": "EXIF orientation; pixel crop for 09; resize; WebP encoding",
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "number": "06",
+    "source": "06_after_IMG_0272.jpeg",
+    "source_sha256": "32f751b3abd4e59ed0c0af39f1030d8bcd94fb307a8fab226311bf1d2763e06f",
+    "crop": [
+      0,
+      0,
+      1152,
+      1536
+    ],
+    "kind": "real_original_derived",
+    "operations": "EXIF orientation; pixel crop for 09; resize; WebP encoding",
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "number": "07",
+    "source": "07_before_IMG_0275.jpeg",
+    "source_sha256": "39d7ae34c614c356d70b385ac6f7aea283be82d0d6912badcb86492acc424e3f",
+    "crop": [
+      0,
+      0,
+      1152,
+      1536
+    ],
+    "kind": "real_original_derived",
+    "operations": "EXIF orientation; pixel crop for 09; resize; WebP encoding",
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "number": "08",
+    "source": "08_after_IMG_0269.jpeg",
+    "source_sha256": "4d01d8c454bc9aa2d2b10bc71a5c147c3b6da8daf67d9fed54c65a2bceed9a37",
+    "crop": [
+      0,
+      0,
+      1152,
+      1536
+    ],
+    "kind": "real_original_derived",
+    "operations": "EXIF orientation; pixel crop for 09; resize; WebP encoding",
+    "width": 1152,
+    "height": 1536
+  },
+  {
+    "number": "09",
+    "source": "09_after_IMG_1490.jpeg",
+    "source_sha256": "c1f88ffb55e3b772fdf6f785d953176118f352298d8cdd987930e2aa53cd8d99",
+    "crop": [
+      240,
+      120,
+      1100,
+      1536
+    ],
+    "kind": "real_original_derived",
+    "operations": "EXIF orientation; pixel crop for 09; resize; WebP encoding",
+    "width": 860,
+    "height": 1416
+  }
+]

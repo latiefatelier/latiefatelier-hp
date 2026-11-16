@@ -930,3 +930,11 @@ p {
     min-height: 680px;
   }
 }
+
+/* Readable service guides; inherit the existing salon palette. */
+.guide-breadcrumb { margin-bottom: 20px; color: var(--color-muted); font-size: .9rem; }
+.guide-breadcrumb a { text-decoration: underline; text-underline-offset: .2em; }
+.guide-body { max-width: 820px; padding-top: 48px; padding-bottom: 24px; }
+.guide-section { margin-bottom: 48px; }
+.guide-booking-note { margin-top: 18px; color: var(--color-muted); font-size: .94rem; }
+.guide-section .faq-list { margin-top: 24px; }
