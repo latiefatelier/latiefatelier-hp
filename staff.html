@@ -11,6 +11,7 @@
   <meta property="og:description" content="美容師歴25年の石田学が、東大阪市金岡のLatief Atelierで髪のお悩みをご相談。髪質・カラー履歴を大切に、エイジング毛の縮毛矯正や髪質改善を考えます。">
   <meta property="og:type" content="profile">
   <meta property="og:url" content="https://latiefatelier.com/staff.html">
+  <meta property="og:locale" content="ja_JP">
   <meta property="og:site_name" content="Latief Atelier">
   <meta property="og:image" content="https://latiefatelier.com/assets/images/staff-ishida.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -18,44 +19,91 @@
   <meta name="twitter:description" content="美容師歴25年の石田学が、東大阪市金岡のLatief Atelierで髪のお悩みをご相談。髪質・カラー履歴を大切に、エイジング毛の縮毛矯正や髪質改善を考えます。">
   <meta name="twitter:image" content="https://latiefatelier.com/assets/images/staff-ishida.png">
   <link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="renewal.css">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "トップ", "item": "https://latiefatelier.com/"},
-      {"@type": "ListItem", "position": 2, "name": "スタッフ", "item": "https://latiefatelier.com/staff.html"}
-    ]
-  }
-  </script>
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "トップ",
+          "item": "https://latiefatelier.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "担当美容師 石田 学",
+          "item": "https://latiefatelier.com/staff.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://latiefatelier.com/staff.html#webpage",
+      "url": "https://latiefatelier.com/staff.html",
+      "name": "美容師 石田学の紹介｜東大阪・弥刀 Latief Atelier",
+      "description": "美容師歴25年の石田学が、東大阪市金岡のLatief Atelierで髪のお悩みをご相談。髪質・カラー履歴を大切に、エイジング毛の縮毛矯正や髪質改善を考えます。",
+      "inLanguage": "ja",
+      "isPartOf": {
+        "@id": "https://latiefatelier.com/#website"
+      },
+      "about": {
+        "@id": "https://latiefatelier.com/#salon"
+      },
+      "mainEntity": {
+        "@id": "https://latiefatelier.com/staff.html#ishida"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://latiefatelier.com/staff.html#ishida",
+      "name": "石田 学",
+      "jobTitle": "美容師",
+      "worksFor": {
+        "@id": "https://latiefatelier.com/#salon"
+      },
+      "url": "https://latiefatelier.com/staff.html"
+    }
+  ]
+}
+</script>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="site-logo" href="index.html" aria-label="Latief Atelier トップページへ">
-        <img src="assets/images/logo-icon.png" alt="" width="40" height="40">
-        <span>Latief Atelier</span>
-      </a>
-      <button class="nav-toggle" type="button" aria-controls="global-nav" aria-expanded="false">
-        <span class="nav-toggle-line"></span>
-        <span class="sr-only">メニューを開閉</span>
-      </button>
-      <nav id="global-nav" class="global-nav" aria-label="グローバルナビゲーション">
-        <a href="concept.html">コンセプト</a>
-        <a href="staff.html" aria-current="page">スタッフ</a>
-        <a href="pricing.html">料金</a>
-        <a href="hairstyle.html">ヘアスタイル</a>
-        <a href="blog.html">ブログ</a>
-        <a class="button button-small" href="index.html#reservation">予約する</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
+<a class="skip-link" href="#main">本文へ移動</a>
+<header class="site-header">
+<div class="container header-inner">
+<a class="site-logo" href="index.html" aria-label="Latief Atelier トップページへ">
+<img src="assets/images/logo-web.png" width="40" height="40" alt="">
+<span>Latief Atelier<small>HAIR QUALITY ATELIER</small>
+</span>
+</a>
+<button class="nav-toggle" type="button" aria-controls="global-nav" aria-expanded="false">
+<span class="nav-toggle-line">
+</span>
+<span class="sr-only">メニューを開閉</span>
+</button>
+<nav id="global-nav" class="global-nav" aria-label="グローバルナビゲーション">
+<a href="hairstyle.html">施術事例</a>
+<a href="aging-hair.html">髪のお悩み</a>
+<a href="concept.html">施術方針</a>
+<a href="staff.html" aria-current="page">担当者</a>
+<a href="pricing.html">メニュー・料金</a>
+<a href="index.html#access">アクセス</a>
+<a href="index.html#journal">SNS</a>
+<a class="button button-small" href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000819673&amp;stylistId=T001129687" target="_blank" rel="noopener noreferrer">空席確認・予約 ↗</a>
+</nav>
+</div>
+</header>
+<main id="main">
     <section class="page-hero">
       <div class="container">
+<nav class="guide-breadcrumb" aria-label="パンくず"><a href="index.html">トップ</a><span aria-hidden="true"> / </span><span aria-current="page">担当美容師 石田 学</span></nav>
         <p class="eyebrow">Staff</p>
-        <h1>石田 学</h1>
+        <h1>担当美容師 石田 学</h1>
         <p>美容師歴25年。髪の悩みや履歴を丁寧に見ながら、髪質改善・縮毛矯正・カラー・ヘアカットを一人ひとりに合わせて設計しています。</p>
       </div>
     </section>
@@ -63,7 +111,7 @@
     <section class="section">
       <div class="container staff-profile">
         <div class="image-frame portrait-frame">
-          <img src="assets/images/staff-ishida.png" alt="Latief Atelierのスタッフ 石田学" width="900" height="1200" loading="lazy" decoding="async">
+          <img src="assets/images/staff-ishida-web.webp" alt="Latief Atelierのスタッフ 石田学" width="900" height="1200" loading="lazy" decoding="async">
         </div>
         <div class="staff-profile-copy">
           <p class="eyebrow">Hair designer / Creator</p>
@@ -81,25 +129,44 @@
         </div>
       </div>
     </section>
-  </main>
-
-  <footer class="site-footer">
+  <section id="reservation" class="section section-accent">
+<div class="container booking-panel">
+<p class="eyebrow">RESERVATION & CONSULTATION</p>
+<h2>髪のこと、まずは話してみませんか。</h2>
+<p>メニューが決まっている方は空席確認へ。<br>迷う方は、髪のお悩みとこれまでの履歴をLINEでお聞かせください。</p>
+<div class="reservation-actions">
+<a class="button" href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000819673&amp;stylistId=T001129687" target="_blank" rel="noopener noreferrer">空席確認・ネット予約<span aria-hidden="true"> ↗</span>
+</a>
+<a class="button button-secondary line-button" href="https://lin.ee/6GPeVmwn" target="_blank" rel="noopener noreferrer">LINEで相談する<span aria-hidden="true"> ↗</span>
+</a>
+</div>
+<p class="booking-note">ネット予約は、同じ店舗の「Best Hair Latief」石田学指名ページへ移動します。メニューが未定の方・ブリーチ履歴のある方は、まずLINEへ。</p>
+<details class="form-option">
+<summary>Googleフォームから予約希望を送る</summary>
+<p>LINE・Googleフォームは希望日時を伺い、調整後に当店から本予約確定の連絡をお返しします。ホットペッパーでは予約完了画面と内容をご確認ください。</p>
+<a class="text-link" href="https://docs.google.com/forms/d/e/1FAIpQLSenfjEN9BArRA2PpPxyo5vL9c3WmB7zXqXQNt8PEVHBXvngTw/viewform?usp=header" target="_blank" rel="noopener noreferrer">予約希望フォームを開く ↗</a>
+</details>
+</div>
+</section>
+</main>
+<footer class="site-footer">
     <div class="container footer-grid">
       <div>
         <p class="footer-logo">Latief Atelier</p>
-        <p>大阪府東大阪市金岡3-27-25<br>完全予約制 / 月・火定休<br>水〜金 15:00〜18:00 / 土日 10:00〜18:00</p>
+        <p>大阪府東大阪市金岡3-27-25<br>Best Hair Latief店舗内 / 担当 石田 学<br>完全予約制 / 月・火定休<br>水〜金 15:00〜18:00 / 土日 10:00〜18:00</p>
       </div>
       <nav class="footer-nav" aria-label="フッターナビゲーション">
-        <a href="index.html">トップページ</a>
         <a href="concept.html">髪質改善と縮毛矯正のコンセプト</a>
-        <a href="pricing.html">料金メニュー</a>
-        <a href="hairstyle.html">ヘアスタイル写真</a>
+        <a href="staff.html">スタッフ紹介</a>
+        <a href="pricing.html">メニュー・料金</a>
+        <a href="hairstyle.html">施術事例・ヘアスタイル</a>
         <a href="aging-hair.html">エイジング毛の縮毛矯正</a>
         <a href="hair-treatment.html">髪質改善と縮毛矯正の選び方</a>
         <a href="bleached-hair.html">ブリーチ毛の酸性縮毛矯正相談</a>
         <a href="blog.html">noteブログ案内</a>
         <a href="index.html#reservation">ご予約・相談</a>
-      </nav>
+      <a href="privacy.html">アクセス解析とCookie</a>
+</nav>
       <div class="footer-sns">
         <a href="https://lin.ee/6GPeVmwn" target="_blank" rel="noopener noreferrer">LINE</a>
         <a href="https://www.instagram.com/latief_atelier?igsh=MW42ZXM1Z3Rob2Y1cg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram</a>
@@ -109,7 +176,13 @@
     </div>
     <p class="copyright">&copy; Latief Atelier</p>
   </footer>
-
-  <script src="script.js"></script>
+<nav class="mobile-reserve-bar" aria-label="スマートフォン用予約導線">
+<a href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000819673&amp;stylistId=T001129687" target="_blank" rel="noopener noreferrer">空席確認・予約 ↗</a>
+<a href="https://lin.ee/6GPeVmwn" target="_blank" rel="noopener noreferrer">LINE相談 ↗</a>
+</nav>
+<script src="script.js" defer>
+</script>
+<script src="analytics-config.js" defer></script>
+<script src="analytics.js" defer></script>
 </body>
 </html>
